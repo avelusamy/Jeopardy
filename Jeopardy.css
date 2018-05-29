@@ -1,0 +1,18 @@
+@keyframes v{
+  5%{background-color: #2323d4 ;}
+  16%{background-color: #2323d4 ;}
+  25%{background-color:  #2323d4;}
+  50%{background-color: #ff0000 ; }
+  75%{background-color: #ff0000 ;}
+  90% {background-color: #ff0000 ;}
+  100%{background-color:  #2323d4 }
+}
+
+
+
+
+body{
+  background-color: #2323d4;
+  animation: v 10s ease infinite; 
+  transform:translate(-200px -100px)
+}
